@@ -221,10 +221,19 @@ color: var(--header-color);
   align-content: center;
   padding: 10px;
   border-radius: 25px 25px 25px 0px;
+ 
 }
 .skills .slid:hover{
-  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
-  background-color: #fff;
+  box-shadow: 0 .5rem 1rem rgba(143, 125, 125, 0.15);
+  background: linear-gradient(
+    -45deg,
+    rgba(255, 255, 255, 0.3),
+    rgba(0, 0, 0, 0.2)
+    
+  );
+  box-shadow: 
+  12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+  12px 12px 16px 0 rgba(255, 255, 255, 0.3);
 }
 .skills    .html {
  color:  #E44D26; 
@@ -265,6 +274,9 @@ color: var(--header-color);
   border-radius: 0px 25px 25px 25px ;
   padding: 10px;
   margin: 5px;
+  box-shadow: 
+  12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+  12px 12px 12px 0 rgba(255, 255, 255, 0.3);
 }
 .projects .card .img{
   border-radius: 0px 25px 25px 25px ;
@@ -291,6 +303,9 @@ color: var(--header-color);
   color: var(--header-color);
   background-color: #fafbff;
   transition: all .5s ease-in-out;
+  box-shadow: 
+  12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+  12px 12px 12px 0 rgba(255, 255, 255, 0.3);
 }
 .contact .card:hover{
   background-color: var(--header-color);
